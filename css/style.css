@@ -254,8 +254,8 @@ header {
 }
 
 .container .card .face {
-    width: 300px;
-    height: 200px;
+    width: 350px;
+    height: 250px;
     transition: 0.5s;
 }
 
@@ -300,17 +300,17 @@ header {
 
 
 .container .card .face.face2 {
-    position: relative;
     background-color: var(--bg-color);
     display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 20px;
     box-sizing: border-box;
     color: var(--text-color);
-    transform: translateY(-80px);
+    transform: translateY(-120px);
     border-radius: 0px 0px 20px 20px;
+}
 
+#nlw{
+    border-radius: 50%;
 }
 
 .container .card:hover .face.face2 {
